@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- list_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="30dp">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:textColor="#FFF"
+        android:padding="15dp"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textAmount"
+        android:padding="7dp"
+        android:textColor="#F4EEE0"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:textColor="#F4EEE0"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:textColor="#F4EEE0"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp">
+
+        <Button
+            android:id="@+id/completeTracker"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/round_button"
+            android:text="\u2713"
+            android:textColor="#F4EEE0"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/deleteTracker"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/round_button"
+            android:text="\u2717"
+            android:textColor="#F4EEE0"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="150dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
